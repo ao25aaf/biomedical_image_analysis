@@ -1,0 +1,10 @@
+{
+  "image_id": "train_001",
+  "n_objects": 26,
+  "mean_area": 215.53846153846155,
+  "std_area": 115.2733206840961,
+  "mean_eccentricity": 0.5831451135100131,
+  "mean_solidity": 0.9485522964301395,
+  "mean_intensity": 0.2510925800754474,
+  "density_fraction": 0.08551025390625
+}

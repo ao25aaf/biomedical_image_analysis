@@ -1,0 +1,5 @@
+{
+  "raw_text": "**Interpretation:**\n\nThe image appears to contain a relatively large number of small to medium-sized objects, with a moderate degree of shape irregularity. The objects have a high solidity, indicating that they are likely compact and well-defined. The mean object intensity is low, suggesting that the objects may be dark or have low contrast with the background. The foreground fraction is relatively low, indicating that the objects occupy a small proportion of the total image area.\n\n**JSON object:**\n{\n  \"n_objects\": 26,\n  \"density_class\": \"normal\",\n  \"shape_regularity\": \"irregular\",\n  \"quality_flag\": \"none\"\n}",
+  "parsed": null,
+  "validation_status": "JSON parse failed: Expecting value: line 1 column 1 (char 0)"
+}

@@ -1,0 +1,4 @@
+split,n_images,n_masks,filenames_match,image_shape,mask_shape,mask_values
+train,80,80,True,"(256, 256)","(256, 256)","(0, 1)"
+val,20,20,True,"(256, 256)","(256, 256)","(0, 1)"
+test,12,12,True,"(256, 256)","(256, 256)","(0, 1)"

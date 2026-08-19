@@ -1,0 +1,7 @@
+base_image,variant,n_objects,mean_area,density_class,quality_flag,mask_dice_vs_clean,mask_iou_vs_clean,n_objects_delta
+test_000,clean,8,190.8,sparse,none,1.0,1.0,0
+test_000,blur,7,426.6,sparse,none,0.6764,0.5111,-1
+test_000,lowcontrast,1,65536.0,sparse,foreground occupies most of the image,0.0455,0.0233,-7
+test_004,clean,43,328.3,clustered,none,1.0,1.0,0
+test_004,blur,9,3091.7,sparse,none,0.6729,0.507,-34
+test_004,lowcontrast,1,65536.0,sparse,foreground occupies most of the image,0.3545,0.2154,-42

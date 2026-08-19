@@ -1,0 +1,96 @@
+{
+  "naive_response": "The image shows a microscopic view of cells, likely under fluorescence microscopy. The cells are stained with a blue fluorescent dye, which is visible as bright blue spots against a dark background. The cells appear to be in various stages of division, with some showing clear nuclear outlines and others with more diffuse staining. The image suggests that the cells are being studied for their morphology and behavior, possibly in the context of a research or educational setting.",
+  "optimised_response": "The image shows a microscopic view of cell nuclei, which are visible as bright spots on a dark background. The nuclei appear to be evenly distributed and are of similar size. The background is dark and appears to be a uniform black color.\n\nHere is a valid JSON object describing the image:\n\n{\n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"cell nuclei\",\n  \"notable_features\": \"uniformly distributed, similar size\",\n  \"image_quality\": \"good, clear, high contrast\"\n}",
+  "repeatability_results": [
+    {
+      "run": 1,
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright spots on a dark background, uniform density",
+        "image_quality": "good focus, high contrast, no visible noise"
+      },
+      "status": "Valid, all required fields present"
+    },
+    {
+      "run": 2,
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright, round, evenly distributed",
+        "image_quality": "clear, well-focused, good contrast"
+      },
+      "status": "Valid, all required fields present"
+    },
+    {
+      "run": 3,
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright spots, uniform density, no diffuseness or pattern",
+        "image_quality": "good, sharp, focused, high contrast, low noise"
+      },
+      "status": "Valid, all required fields present"
+    },
+    {
+      "run": 4,
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright, round, uniform, with some variation in size",
+        "image_quality": "good, with clear focus and contrast"
+      },
+      "status": "Valid, all required fields present"
+    },
+    {
+      "run": 5,
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright spots on a dark background",
+        "image_quality": "uncertain"
+      },
+      "status": "Valid, all required fields present"
+    }
+  ],
+  "corruption_comparison": {
+    "clean": {
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "cell nuclei",
+        "notable_features": "bright, diffusely distributed spots",
+        "image_quality": "sharp, well-focused, good contrast"
+      },
+      "status": "Valid, all required fields present",
+      "uncertain_used": false
+    },
+    "low_contrast": {
+      "valid_json": true,
+      "parsed": {
+        "modality": "uncertain",
+        "tissue_type": "nuclei",
+        "notable_features": "bright spots on a dark background",
+        "image_quality": "uncertain"
+      },
+      "status": "Valid, all required fields present",
+      "uncertain_used": true
+    },
+    "blurred": {
+      "valid_json": true,
+      "parsed": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "nuclei",
+        "notable_features": "bright spots of varying sizes",
+        "image_quality": "good"
+      },
+      "status": "Valid, all required fields present",
+      "uncertain_used": false
+    }
+  }
+}

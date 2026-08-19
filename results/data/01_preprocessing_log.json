@@ -1,0 +1,13 @@
+{
+  "grayscale": "0.2989R + 0.5870G + 0.1140B",
+  "target_size": [
+    256,
+    256
+  ],
+  "image_range": [
+    0,
+    1
+  ],
+  "mask_interpolation": "nearest neighbour",
+  "mask_encoding": "binary 0/1 after loading"
+}
