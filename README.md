@@ -9,7 +9,7 @@ A simplified biomedical image analysis workflow uses a combination of a local mu
 | 2 | `02_task1_vision_language_prompting.ipynb` | Asks a local VLM to describe images, compares naive and optimised prompts, tests repeatability and corruption robustness |
 | 3 | `03_task2_classical_segmentation.ipynb` | Otsu thresholding + morphology, regionprops table, numbers- only LLM interpretation, comparison to VLM grid descriptions |
 | 4 | `04_task3_u_net.ipynb` | U-Net training and evaluation for nuclei segmentation |
-| 5 | `05_task4_hybrid_pipeline.ipynb` | Hybrid pipeline combining feature extraction, LLM narration, and trained UNet, runs on full test set and includes a robustness assessment on low-contrast/con blurry images |
+| 5 | `05_task4_hybrid_pipeline.ipynb` | Hybrid pipeline combining feature extraction, LLM narration, and trained UNet, runs on full test set and includes a robustness assessment on low-contrast/blurry images |
 
 
 ## Key results
