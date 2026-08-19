@@ -14,7 +14,7 @@ A simplified biomedical image analysis workflow uses a combination of a local mu
 
 ## Key results
 - U-Net achieved the best results: mean Dice score was 0.9947 and mean IoU was 0.9894 with 12 held-out test images.
-- When comparing to the classical (Otsu) approach, it becomes apparent that it underperforms in comparison to U-Net. It achieved a mean Dice score between 0.978 and 0.980 for the test set, which makes it roughly 4 times worse than U-Net. The reason for this gap is that some of the adjacent nuclei were merged into one connected region.
+- When comparing to the classical (Otsu) approach, it becomes apparent that it underperforms in comparison to U-Net. It achieved a mean Dice score between 0.978 and 0.980 for the test set, which makes its error rate roughly 4 times worse than U-Net (2.2% vs 0.53%). The reason for this gap is that some of the adjacent nuclei were merged into one connected region.
 - In particular, robustness to image corruption can be checked on the mask generation step itself before proceeding to other downstream analyses. Masks generated from low-contrast images are typically merged into one big region, which is easily spotted by the deterministic quality control step. On the other hand, masks from blurry images demonstrate drops in Dice scores and object counts but, unfortunately, not significant enough to fail the current set of quality control rules.
 
 ## Repository structure
